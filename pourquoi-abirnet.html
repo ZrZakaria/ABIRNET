@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABIRNET - Accueil</title>
+    <!-- Le chemin vers le CSS est maintenant dans assets/css/ -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="nav-container">
+        <a href="index.html" class="nav-logo">
+          <img src="assets/images/logo.png" alt="Logo ABIRNET" />
+        </a>
+        <ul class="nav-menu">
+          <!-- Liens mis à jour -->
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li>
+            <a href="pourquoi-abirnet.html" class="nav-link"
+              >Pourquoi ABIRNET</a
+            >
+          </li>
+          <li><a href="services.html" class="nav-link">Nos Services</a></li>
+          <li><a href="references.html" class="nav-link">Références</a></li>
+          <li><a href="partenaires.html" class="nav-link">Partenaires</a></li>
+          <!-- ==================== LIGNE AJOUTÉE CI-DESSOUS ==================== -->
+          <li>
+            <a href="contact.html" class="nav-link-button">Contactez-nous</a>
+          </li>
+          <!-- ================================================================== -->
+        </ul>
+        <a href="contact.html" class="btn-contact">Contactez-nous</a>
+        <!-- ==================== AJOUTEZ CECI ==================== -->
+        <div class="nav-toggle" id="nav-toggle">
+          <div class="nav-toggle-bar"></div>
+          <div class="nav-toggle-bar"></div>
+          <div class="nav-toggle-bar"></div>
+        </div>
+        <!-- ====================================================== -->
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="page-hero"
+        style="background-image: url('assets/images/services-bg.jpg')"
+      >
+        <div class="page-hero-content">
+          <h1>Notre Engagement : Qualité & Fiabilité</h1>
+          <p>Plus qu'un fournisseur, un partenaire de votre réussite.</p>
+        </div>
+      </section>
+
+      <!-- ==================== Why Us Section (NOUVELLE VERSION SLIDER) ==================== -->
+      <section id="why-us" class="section">
+        <h2 class="section-title">Pourquoi ABIRNET ?</h2>
+
+        <!-- Conteneur principal du Swiper -->
+        <div class="swiper why-us-slider">
+          <!-- Wrapper pour les diapositives (slides) -->
+          <div class="swiper-wrapper">
+            <!-- Slide 1: Expertise Confirmée -->
+            <div class="swiper-slide">
+              <div class="feature-slide-content">
+                <h4>Expertise Confirmée</h4>
+                <p>
+                  Notre équipe qualifiée utilise des matériaux haut de gamme et
+                  respecte rigoureusement les normes de l'industrie pour des
+                  performances exceptionnelles.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 2: Développement Continu -->
+            <div class="swiper-slide">
+              <div class="feature-slide-content">
+                <h4>Développement Continu</h4>
+                <p>
+                  Nous sommes à la pointe des innovations technologiques (Fibre,
+                  IoT, Cloud) pour vous offrir des solutions performantes et
+                  évolutives.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 3: Solutions Personnalisées -->
+            <div class="swiper-slide">
+              <div class="feature-slide-content">
+                <h4>Solutions Personnalisées</h4>
+                <p>
+                  Chaque projet débute par un audit pour concevoir une solution
+                  sur mesure, parfaitement adaptée à vos exigences spécifiques.
+                </p>
+              </div>
+            </div>
+
+            <!-- Slide 4: Qualité & Fiabilité -->
+            <div class="swiper-slide">
+              <div class="feature-slide-content">
+                <h4>Qualité & Fiabilité</h4>
+                <p>
+                  Nous effectuons des tests et des validations systématiques
+                  avant chaque mise en service pour garantir une fiabilité à
+                  toute épreuve.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Flèches de navigation -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+
+      <!-- ==================== Methodology Section (NOUVELLE VERSION TIMELINE) ==================== -->
+      <section id="methodology" class="section section-transparent">
+        <h2 class="section-title">Notre Méthode de Travail</h2>
+        <div class="timeline-container">
+          <!-- Étape 1 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>1. Analyse des Besoins</h3>
+              <p>
+                Écoute active et audit approfondi de vos exigences pour définir
+                précisément les objectifs techniques et fonctionnels de votre
+                projet.
+              </p>
+            </div>
+          </div>
+
+          <!-- Étape 2 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>2. Conception sur Mesure</h3>
+              <p>
+                Élaboration des plans détaillés, des schémas d'architecture et
+                des topologies pour concevoir la solution la plus performante et
+                évolutive.
+              </p>
+            </div>
+          </div>
+
+          <!-- Étape 3 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>3. Installation & Déploiement</h3>
+              <p>
+                Mise en œuvre par nos équipes de techniciens certifiés dans le
+                respect strict des normes de l'industrie et des règles de l'art.
+              </p>
+            </div>
+          </div>
+
+          <!-- Étape 4 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>4. Tests & Validation</h3>
+              <p>
+                Vérification rigoureuse de chaque composant et de l'ensemble de
+                l'installation pour garantir une performance et une fiabilité
+                optimales avant la mise en service.
+              </p>
+            </div>
+          </div>
+
+          <!-- Étape 5 -->
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>5. Maintenance & Support</h3>
+              <p>
+                Assistance technique continue et maintenance proactive pour
+                garantir la pérennité et la performance de votre infrastructure
+                sur le long terme.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== Footer ==================== -->
+    <!-- ==================== Footer ==================== -->
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-about">
+          <a href="index.html" class="footer-logo">
+            <img src="assets/images/logo.png" alt="Logo ABIRNET" />
+          </a>
+          <p>
+            Société d’ingénierie spécialisée dans l'installation et la
+            maintenance des réseaux informatiques, télécoms et électriques.
+          </p>
+        </div>
+        <div class="footer-contact">
+          <h4>Contactez-nous</h4>
+          <p>N° 42, Avenue Ben Guerir, Bettana – Salé, Maroc</p>
+          <p>Email: contact@abirnet.ma</p>
+          <p>Tél: +212 5 37 81 39 47</p>
+          <p>Fax: +212 5 37 81 39 51</p>
+        </div>
+        <div class="footer-links">
+          <h4>Plan du Site</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="pourquoi-abirnet.html">Pourquoi ABIRNET</a></li>
+            <li><a href="references.html">Nos Références</a></li>
+            <li><a href="partenaires.html">Nos Partenaires</a></li>
+            <li><a href="contact.html">Contactez-nous</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ABIRNET. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts déplacés vers la fin du body pour une meilleure performance -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- AJOUTÉ : JavaScript de Swiper.js (AVANT votre script.js) -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

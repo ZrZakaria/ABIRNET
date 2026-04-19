@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABIRNET - Accueil</title>
+    <!-- Le chemin vers le CSS est maintenant dans assets/css/ -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="nav-container">
+        <a href="index.html" class="nav-logo">
+          <img src="assets/images/logo.png" alt="Logo ABIRNET" />
+        </a>
+        <ul class="nav-menu">
+          <!-- Liens mis à jour -->
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li>
+            <a href="pourquoi-abirnet.html" class="nav-link"
+              >Pourquoi ABIRNET</a
+            >
+          </li>
+          <li><a href="services.html" class="nav-link">Nos Services</a></li>
+          <li><a href="references.html" class="nav-link">Références</a></li>
+          <li><a href="partenaires.html" class="nav-link">Partenaires</a></li>
+          <!-- ==================== LIGNE AJOUTÉE CI-DESSOUS ==================== -->
+          <li>
+            <a href="contact.html" class="nav-link-button">Contactez-nous</a>
+          </li>
+          <!-- ================================================================== -->
+        </ul>
+        <a href="contact.html" class="btn-contact">Contactez-nous</a>
+        <!-- ==================== AJOUTEZ CECI ==================== -->
+        <div class="nav-toggle" id="nav-toggle">
+          <div class="nav-toggle-bar"></div>
+          <div class="nav-toggle-bar"></div>
+          <div class="nav-toggle-bar"></div>
+        </div>
+        <!-- ====================================================== -->
+      </nav>
+    </header>
+
+    <main>
+      <!-- ==================== Hero Section ==================== -->
+      <section id="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">
+            ABIRNET : La puissance qui connecte vos ambitions !
+          </h1>
+          <p class="hero-subtitle">
+            Une solution de câblage fiable et rapide est un « must have » pour
+            le succès de votre entreprise.
+          </p>
+        </div>
+      </section>
+
+      <!-- ==================== Services Section (NOUVELLE VERSION INTERACTIVE) ==================== -->
+      <section id="services" class="section">
+        <h2 class="section-title">Nos Métiers</h2>
+        <div class="services-container">
+          <!-- Carte 1: Réseaux Informatiques -->
+          <div class="service-card">
+            <div class="service-card-front">
+              <h3>Réseaux Informatiques</h3>
+              <div class="toggle-icon"></div>
+            </div>
+            <div class="service-card-back">
+              <img
+                src="assets/images/services/informatique.jpg"
+                alt="Réseaux Informatiques"
+              />
+              <p>
+                Câblage LAN/WAN, installation d'équipements passifs et actifs
+                pour une infrastructure réseau robuste et performante.
+              </p>
+            </div>
+          </div>
+
+          <!-- Carte 2: Réseaux Téléphoniques -->
+          <div class="service-card">
+            <div class="service-card-front">
+              <h3>Réseaux Téléphoniques</h3>
+              <div class="toggle-icon"></div>
+            </div>
+            <div class="service-card-back">
+              <img
+                src="assets/images/services/slide-telephone.jpg"
+                alt="Réseaux Téléphoniques"
+              />
+              <p>
+                Solutions de téléphonie analogique, numérique (VoIP) et
+                standards IP/Cloud pour une communication fluide.
+              </p>
+            </div>
+          </div>
+
+          <!-- Carte 3: Vidéosurveillance & Sécurité -->
+          <div class="service-card">
+            <div class="service-card-front">
+              <h3>Vidéosurveillance & Sécurité Incendie</h3>
+              <div class="toggle-icon"></div>
+            </div>
+            <div class="service-card-back">
+              <img
+                src="assets/images/services/Surveillance.jpg"
+                alt="Vidéosurveillance et Sécurité Incendie"
+              />
+              <p>
+                Conception et déploiement de systèmes de surveillance et de
+                détection d'incendie (SDI/SMSI) pour votre sécurité.
+              </p>
+            </div>
+          </div>
+
+          <!-- Carte 4: Équipements Électriques -->
+          <div class="service-card">
+            <div class="service-card-front">
+              <h3>Équipements Électriques</h3>
+              <div class="toggle-icon"></div>
+            </div>
+            <div class="service-card-back">
+              <img
+                src="assets/images/services/ELECTRIQUE.jpg"
+                alt="Équipements Électriques"
+              />
+              <p>
+                Étude, conception et câblage d'installations électriques basse
+                tension, des armoires aux stations de pompage.
+              </p>
+            </div>
+          </div>
+
+          <!-- Carte 5: Contrôle d’Accès -->
+          <div class="service-card">
+            <div class="service-card-front">
+              <h3>Contrôle d’Accès</h3>
+              <div class="toggle-icon"></div>
+            </div>
+            <div class="service-card-back">
+              <img
+                src="assets/images/services/control.jpg"
+                alt="Contrôle d’Accès"
+              />
+              <p>
+                Systèmes de gestion centralisée des accès par badge, biométrie
+                ou interphonie pour sécuriser vos locaux.
+              </p>
+            </div>
+          </div>
+
+          <!-- Carte 6: Postes Transformateurs & Onduleurs -->
+          <div class="service-card">
+            <div class="service-card-front">
+              <h3>Detecteur d'incendie</h3>
+              <div class="toggle-icon"></div>
+            </div>
+            <div class="service-card-back">
+              <img
+                src="assets/images/services/detecteur incendie.jpg"
+                alt="Postes Transformateurs et Onduleurs"
+              />
+              <p>
+                Installation des systèmes de détection d’incendie SDI
+                Réalisation des systèmes de mise en sécurité incendie SMSI
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Why Us Section ==================== -->
+      <section id="why-us" class="section">
+        <h2 class="section-title">Pourquoi ABIRNET ?</h2>
+        <div class="why-us-container">
+          <div class="feature-item">
+            <h4>Expertise Confirmée</h4>
+            <p>
+              Notre équipe qualifiée utilise des matériaux haut de gamme et
+              respecte rigoureusement les normes de l'industrie pour des
+              performances exceptionnelles.
+            </p>
+          </div>
+          <div class="feature-item">
+            <h4>Développement Continu</h4>
+            <p>
+              Nous sommes à la pointe des innovations technologiques (Fibre,
+              IoT, Cloud) pour vous offrir des solutions performantes et
+              évolutives.
+            </p>
+          </div>
+          <div class="feature-item">
+            <h4>Solutions Personnalisées</h4>
+            <p>
+              Chaque projet débute par un audit pour concevoir une solution sur
+              mesure, parfaitement adaptée à vos exigences spécifiques.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Partners Section ==================== -->
+      <section id="partners" class="section">
+        <h2 class="section-title">Ils nous font confiance</h2>
+        <div class="partners-container">
+          <div class="partners-logos">
+            <img src="assets/images/partners/avaya.png" alt="avaya Logo" />
+            <img
+              src="assets/images/partners/canovate.png"
+              alt="canovate Logo"
+            />
+            <img src="assets/images/partners/cisco.jpg" alt="cisco Logo" />
+            <img src="assets/images/partners/CONTEG.png" alt="CONTEG Logo" />
+            <img src="assets/images/partners/corning.png" alt="corning Logo" />
+            <img src="assets/images/partners/dell.jpg" alt="dell Logo" />
+            <img src="assets/images/partners/eaton.png" alt="eaton Logo" />
+            <img
+              src="assets/images/partners/finsecur.jpg"
+              alt="finsecurx Logo"
+            />
+            <img
+              src="assets/images/partners/formrack.png"
+              alt="formrack Logo"
+            />
+            <img
+              src="assets/images/partners/hikvision.jpg"
+              alt="Hikvision Logo"
+            />
+            <img src="assets/images/partners/hp.png" alt="hp Logo" />
+            <img src="assets/images/partners/huawei.jpg" alt="huawei Logo" />
+            <img src="assets/images/partners/ingelec.png" alt="ingelec Logo" />
+            <img src="assets/images/partners/LAP.jpg" alt="LAP Logo" />
+            <img src="assets/images/partners/legrand.png" alt="legrand Logo" />
+            <img src="assets/images/partners/lenovo.png" alt="lenovo Logo" />
+            <img
+              src="assets/images/partners/microsoft.png"
+              alt="microsoft Logo"
+            />
+            <img src="assets/images/partners/mmc.png" alt="mmc Logo" />
+            <img
+              src="assets/images/partners/nexans.png"
+              alt="nexans(agrinode) Logo"
+            />
+            <img src="assets/images/partners/ruckus.jpg" alt="ruckus Logo" />
+            <img src="assets/images/partners/zkt.png" alt="zkt Logo" />
+            <img src="assets/images/partners/AGINODE.png" alt="agrinode Logo" />
+            <img src="assets/images/partners/alcatel.jpg" alt="alcatel Logo" />
+            <img src="assets/images/partners/apc.png" alt="apc Logo" />
+            <img src="assets/images/partners/aruba.png" alt="aruba Logo" />
+
+            <!-- Répétition pour montrer plus de logos -->
+            <img src="assets/images/partners/avaya.png" alt="avaya Logo" />
+            <img
+              src="assets/images/partners/canovate.png"
+              alt="canovate Logo"
+            />
+            <img src="assets/images/partners/cisco.jpg" alt="cisco Logo" />
+            <img src="assets/images/partners/CONTEG.png" alt="CONTEG Logo" />
+            <img src="assets/images/partners/corning.png" alt="corning Logo" />
+            <img src="assets/images/partners/dell.jpg" alt="dell Logo" />
+            <img src="assets/images/partners/eaton.png" alt="eaton Logo" />
+            <img
+              src="assets/images/partners/finsecur.jpg"
+              alt="finsecurx Logo"
+            />
+            <img
+              src="assets/images/partners/formrack.png"
+              alt="formrack Logo"
+            />
+            <img
+              src="assets/images/partners/hikvision.jpg"
+              alt="Hikvision Logo"
+            />
+            <img src="assets/images/partners/hp.png" alt="hp Logo" />
+            <img src="assets/images/partners/huawei.jpg" alt="huawei Logo" />
+            <img src="assets/images/partners/ingelec.png" alt="ingelec Logo" />
+            <img src="assets/images/partners/LAP.jpg" alt="LAP Logo" />
+            <img src="assets/images/partners/legrand.png" alt="legrand Logo" />
+            <img src="assets/images/partners/lenovo.png" alt="lenovo Logo" />
+            <img
+              src="assets/images/partners/microsoft.png"
+              alt="microsoft Logo"
+            />
+            <img src="assets/images/partners/mmc.png" alt="mmc Logo" />
+            <img
+              src="assets/images/partners/nexans.png"
+              alt="nexans(agrinode) Logo"
+            />
+            <img src="assets/images/partners/ruckus.jpg" alt="ruckus Logo" />
+            <img src="assets/images/partners/zkt.png" alt="zkt Logo" />
+            <img src="assets/images/partners/AGINODE.png" alt="agrinode Logo" />
+            <img src="assets/images/partners/alcatel.jpg" alt="alcatel Logo" />
+            <img src="assets/images/partners/apc.png" alt="apc Logo" />
+            <img src="assets/images/partners/aruba.png" alt="aruba Logo" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== Footer ==================== -->
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-about">
+          <a href="index.html" class="footer-logo">
+            <img src="assets/images/logo.png" alt="Logo ABIRNET" />
+          </a>
+          <p>
+            Société d’ingénierie spécialisée dans l'installation et la
+            maintenance des réseaux informatiques, télécoms et électriques.
+          </p>
+        </div>
+        <div class="footer-contact">
+          <h4>Contactez-nous</h4>
+          <p>N° 42, Avenue Ben Guerir, Bettana – Salé, Maroc</p>
+          <p>Email: contact@abirnet.ma</p>
+          <p>Tél: +212 5 37 81 39 47</p>
+          <p>Fax: +212 5 37 81 39 51</p>
+        </div>
+        <div class="footer-links">
+          <h4>Plan du Site</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="pourquoi-abirnet.html">Pourquoi ABIRNET</a></li>
+            <li><a href="references.html">Nos Références</a></li>
+            <li><a href="partenaires.html">Nos Partenaires</a></li>
+            <li><a href="contact.html">Contactez-nous</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ABIRNET. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts déplacés vers la fin du body pour une meilleure performance -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

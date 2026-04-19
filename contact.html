@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABIRNET - Accueil</title>
+    <!-- Le chemin vers le CSS est maintenant dans assets/css/ -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="nav-container">
+        <a href="index.html" class="nav-logo">
+          <img src="assets/images/logo.png" alt="Logo ABIRNET" />
+        </a>
+        <ul class="nav-menu">
+          <!-- Liens mis à jour -->
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li>
+            <a href="pourquoi-abirnet.html" class="nav-link"
+              >Pourquoi ABIRNET</a
+            >
+          </li>
+          <li><a href="services.html" class="nav-link">Nos Services</a></li>
+          <li><a href="references.html" class="nav-link">Références</a></li>
+          <li><a href="partenaires.html" class="nav-link">Partenaires</a></li>
+          <!-- ==================== LIGNE AJOUTÉE CI-DESSOUS ==================== -->
+          <li>
+            <a href="contact.html" class="nav-link-button">Contactez-nous</a>
+          </li>
+          <!-- ================================================================== -->
+        </ul>
+        <a href="contact.html" class="btn-contact">Contactez-nous</a>
+        <!-- ==================== AJOUTEZ CECI ==================== -->
+        <div class="nav-toggle" id="nav-toggle">
+          <div class="nav-toggle-bar"></div>
+          <div class="nav-toggle-bar"></div>
+          <div class="nav-toggle-bar"></div>
+        </div>
+        <!-- ====================================================== -->
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="page-hero"
+        style="background-image: url('assets/images/services-bg.jpg')"
+      >
+        <div class="page-hero-content">
+          <h1>Contactez-Nous</h1>
+          <p>Une question ? Un projet ? Nous sommes à votre écoute.</p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact-page" class="section">
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Informations de Contact</h3>
+            <p>
+              N'hésitez pas à nous appeler ou nous envoyer un email pour toute
+              demande.
+            </p>
+            <ul>
+              <li>
+                <strong>Adresse :</strong> N° 42, Avenue Ben Guerir, Bettana –
+                Salé, Maroc
+              </li>
+              <li><strong>Téléphone :</strong> +212 5 37 81 39 47</li>
+              <li><strong>Email :</strong> contact@abirnet.ma</li>
+            </ul>
+            <div class="map-container">
+              <!-- Intégration Google Maps -->
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.4726598320185!2d-6.809330011145001!3d34.031744700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76b814b4b5f6b%3A0xbd75ce8cb0d0c20a!2sAbirnet!5e0!3m2!1sen!2sma!4v1757588473569!5m2!1sen!2sma"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Envoyez-nous un message</h3>
+            <form id="contact-form" action="envoyer_formulaire.php" method="POST">
+        <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Votre Nom" required>
+        </div>
+        <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Votre Email" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+        </div>
+        <div class="form-group">
+            <textarea id="message" name="message" placeholder="Votre Message" rows="6" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Envoyer le Message</button>
+    </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== Footer ==================== -->
+    <footer id="contact">
+      <div class="footer-container">
+        <div class="footer-about">
+          <a href="index.html" class="footer-logo">
+            <img src="assets/images/logo.png" alt="Logo ABIRNET" />
+          </a>
+          <p>
+            Société d’ingénierie spécialisée dans l'installation et la
+            maintenance des réseaux informatiques, télécoms et électriques.
+          </p>
+        </div>
+        <div class="footer-contact">
+          <h4>Contactez-nous</h4>
+          <p>N° 42, Avenue Ben Guerir, Bettana – Salé, Maroc</p>
+          <p>Email: contact@abirnet.ma</p>
+          <p>Tél: +212 5 37 81 39 47</p>
+          <p>Fax: +212 5 37 81 39 51</p>
+        </div>
+        <div class="footer-links">
+          <h4>Plan du Site</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Nos Services</a></li>
+            <li><a href="pourquoi-abirnet.html">Pourquoi ABIRNET</a></li>
+            <li><a href="references.html">Nos Références</a></li>
+            <li><a href="partenaires.html">Nos Partenaires</a></li>
+            <li><a href="contact.html">Contactez-nous</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ABIRNET. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts déplacés vers la fin du body pour une meilleure performance -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
